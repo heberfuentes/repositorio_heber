@@ -1,0 +1,122 @@
+.producto {
+  background-color: #B91646;
+}
+
+.producto .producto__titulo {
+  color: red;
+}
+
+/* SECCION DE PRECIOS */
+.divPrecio {
+  background: #FAFAFA;
+  color: #333;
+  border: 1px solid #333;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px #333;
+          box-shadow: 10px 10px 5px #333;
+  width: 31%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.divPrecio .divPrecio__precio {
+  background-color: #FFBC97;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.divPrecio .divPrecio__precio:hover {
+  background: #FFBC97 240, 99, 83;
+}
+
+/* GALERIA */
+.gridGaleria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+      grid-template-areas: "imagenUno imagenDos imagenTres" "imagenCuatro imagenCinco imagenSeis" "imagenSiete imagenOcho imagenOcho";
+}
+
+.gridGaleria .gridGaleria__imagenUno {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: imagenUno;
+}
+
+.gridGaleria .girdGaleria__imagenDos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: imagenDos;
+}
+
+.gridGaleria .gridGaleria__imagenTres {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: imagenTres;
+}
+
+.gridGaleria .gridGaleria__imagenCuatro {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: imagenCuatro;
+}
+
+.gridGaleria .girdGaleria__imagenCinco {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: imagenCinco;
+}
+
+.gridGaleria .girdGaleria__imagenSeis {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: imagenSeis;
+}
+
+.gridGaleria .gridGaleria__imagenSiete {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: imagenSiete;
+}
+
+.gridGaleria .gridGaleria__imagenOcho {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: imagenOcho;
+}
+
+.gridGaleria .gridGaleria__imagenGaleria {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gridGaleria .gridGaleria__imagenGaleria:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.otrosproductos {
+  background-color: #B91646;
+}
+
+.otrosproductos .otrosproductos__titulo {
+  color: red;
+  padding: 10px;
+}
+
+.cactus {
+  background-color: #3E7C17;
+}
+/*# sourceMappingURL=style.css.map */

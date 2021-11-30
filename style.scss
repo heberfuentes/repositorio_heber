@@ -1,0 +1,133 @@
+@import  "variables";
+
+
+
+
+
+    
+
+
+
+    
+
+
+.producto {
+   background-color: $color-violeta;
+
+   .producto__titulo{
+       color: $color;
+   }
+
+}
+
+
+/* SECCION DE PRECIOS */
+
+.divPrecio{
+    background: $color-blanco;
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: $padding;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #333;
+    width: 31%;
+    box-sizing: border-box;
+
+    .divPrecio__precio{
+        background-color: $salmon;
+        display: block;
+        padding: $padding;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    
+    }
+    
+
+    .divPrecio__precio:hover{
+        background: $salmon(240, 99, 83);
+    }
+    
+
+}
+
+
+/* GALERIA */
+
+
+
+
+.gridGaleria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "imagenUno imagenDos imagenTres"
+        "imagenCuatro imagenCinco imagenSeis"
+        "imagenSiete imagenOcho imagenOcho";
+        .gridGaleria__imagenUno{
+            grid-area: imagenUno;
+        }
+        .girdGaleria__imagenDos {
+            grid-area: imagenDos;
+        }
+        .gridGaleria__imagenTres {
+            grid-area: imagenTres;
+        }
+        .gridGaleria__imagenCuatro {
+            grid-area: imagenCuatro;
+        }
+        .girdGaleria__imagenCinco {
+            grid-area: imagenCinco;
+        }
+        .girdGaleria__imagenSeis {
+            grid-area: imagenSeis;
+        }
+        .gridGaleria__imagenSiete {
+            grid-area: imagenSiete;
+        }
+        .gridGaleria__imagenOcho {
+            grid-area: imagenOcho;
+        }
+        .gridGaleria__imagenGaleria{
+            width: $width;
+            height: $height;
+            object-fit: cover;
+            
+        }
+        .gridGaleria__imagenGaleria:hover{
+            filter: grayscale(100%);
+        
+        }
+}
+
+
+
+.otrosproductos {
+    background-color: $color-violeta;
+ 
+    .otrosproductos__titulo{
+        color: $color;
+        padding: $padding;
+    }
+ 
+ }
+
+
+ .cactus{
+     background-color: $green;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
